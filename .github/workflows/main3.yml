@@ -16,9 +16,8 @@ jobs:
           node-version: '20'
 
       - name: Install Verified Agent Skill
-        run: |
-          npx clawhub@latest install verified-agent-identity
-          cd scripts
+        run: npx clawhub@latest install verified-agent-identity
+        
           npm install
 
       - name: Create Identity & Generate Reward Link
