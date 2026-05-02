@@ -23,4 +23,4 @@ jobs:
       - name: Create Identity & Generate Reward Link
         run: |
           node scripts/createNewEthereumIdentity.js
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "zilibeee work", "description": "Premium work and zilibeee production in Nigeria"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "mbah work", "description": "Premium work and mbah production in Nigeria"}'
